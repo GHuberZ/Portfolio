@@ -1,5 +1,101 @@
-body{
-    margin: 0 auto;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+header {
+    background-color: #333a44;
+    color: white;
+}
+
+.panel {
+    display: auto;
+    justify-content: flex-start;
+    padding: 25px 1px;
+}
+
+.panel a {
+    color: white;
+    text-decoration: none;
+    padding: 25px;
+}
+
+.hero {
+    background-color: #f8f9fa;
+    padding: 3rem;
     text-align: center;
-  
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    margin: 0 -15px;
+}
+
+.col {
+    padding: 10px;
+    flex: 1;
+}
+
+.card {
+    border: 1px solid #dee2e6;
+    margin-bottom: 20px;
+}
+
+.card-header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-body1 {
+    padding: 22px;
+    line-height: 35px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 50px;
+}
+
+.table th, .table td {
+    border: 1px solid #dee2e6;
+    padding: 15px;
+    text-align: left;
+}
+
+footer {
+    background-color: #f8f8f8;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.button1 {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button1:hover {
+    background-color: white;
+    color: #007bff;
 }
