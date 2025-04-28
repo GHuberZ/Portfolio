@@ -2,95 +2,65 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Портфолио</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
 </head>
+
 <body>
-  
-<header>
-  
-<nav class="panel">
-    <a class="logo" href="#">🤓</a>
-    <a class="button" href="#">Портфолио</a>
-    <a class="button" href="#">Статистика</a>
-    <a class="button" href="#">Работы</a>
-</nav>
-  
-</header>
-  
-<main>
-  
-<div class="hero">
-<div class="container">
-    <h1>Портфолио</h1>
-    <p>В этом разделе вы увидите разнообразные проекты, которые я создал в течение своей карьеры.</p>
-    <a class="button1" href="#">Смотреть проекты</a>
-</div>
-</div>
+    <nav class="nav">
+        <div class="container">
+            <ul class="links">
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#about">Обо мне</a></li>
+                <li><a href="#work">Проекты</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </div>
+    </nav>
 
-<div class="container">
-<div class="row">
-<div class="col">
-<article class="card">
-<div class="card-header">Обо мне</div>
-<div class="card-body">
-    <p class="name"><strong>Имя Фамилия:</strong> Аванесян Юрий</p>
-    <p><strong>Образование:</strong> Информационные системы и программирование.</p>
-</div>
-</article>
-</div>
-  
-<div class="col">
-<article class="card">
-<div class="card-header">Статистика</div>
-<div class="card-body1">
-    <strong>Добавлено проектов:</strong> 3.<br>
-    <strong>Языки проектов:</strong> Python, HTML.
-</div>
-</article>
-</div>
-</div>
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Привет! Я Никита Никитов</h1>
+            <p>Студент, увлечённый созданием инновационных веб-решений</p>
+            <a href="#work" class="submit">Смотреть проекты</a>
+        </div>
+    </section>
 
-<table class="table">
-<thead>
-<tr>
-    <th>Название проектов</th>
-    <th>Дата добавления</th>
-</tr>
-</thead>
-  
-<tbody>
-<tr>
-    <td>
-      <a class="links" 
-      href="https://github.com/GHuberZ/Portfolio/tree/main">
-      Этот сайт</a></td>
-    <td>12.12.2024</td>
-</tr>
-<tr>
-    <td>
-      <a class="links"
-      href="https://github.com/GHuberZ/WebSite/blob/main/TelegramBot.py">
-      Эхо-Телеграм бот</a></td>
-    <td>09.11.2024</td>
-</tr>
-<tr>
-    <td>
-      <a class="links"
-      href="https://github.com/GHuberZ/WebSite/blob/main/Clicker">
-      Кликер</a></td>
-    <td>26.10.2024</td>
-</tr>
-</tbody>
-</table>
-</div>
-</main>
-<footer>
-<div class="container">
-    <p>© Портфолио. Все права не защищены</p>
-</div>
-</footer>
+    <section id="about" class="about">
+        <div class="container">
+            <div class="card">
+                <img src="images/Glimze.jpg" alt="Никита Никитов">
+                <div class="text">
+                    <h2>Обо мне</h2>
+                    <p>Специализируюсь на разработке современных веб-приложений с акцентом на UX/UI дизайн.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="work" class="work">
+        <div class="container">
+            <h2>Мои проекты</h2>
+            <div class="grid">
+                <div class="placeholder">Скоро здесь появятся проекты.</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="form-wrap">
+                <h2>Напишите мне</h2>
+                <form class="form">
+                    <input type="text" placeholder="Имя" required>
+                    <input type="email" placeholder="Email" required>
+                    <textarea rows="5" placeholder="Сообщение"></textarea>
+                    <button class="submit">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
-
-
